@@ -56,10 +56,36 @@ a{
     width: max-content;
 }
 .banner{
-    width: 100%;
+    position: relative;
+    height: 150px;
     display: flex;
     justify-content: center;
 }
 .banner img{
     width: 100%;
+}
+.btn{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+    width: 100%;
+}
+.previous{
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    color: white;
+    max-width: 5%;
+    transform: rotate(180deg);
+    margin-left: 30px;
+}
+.next{
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    max-width: 5%;
+    margin-right: 30px;
 }
